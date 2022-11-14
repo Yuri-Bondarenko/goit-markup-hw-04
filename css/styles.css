@@ -354,6 +354,38 @@ img {
 
 }
 
+/* clients section */
+
+.clients-title {
+  color: var(--logo-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+ 
+  gap: 30px;
+}
+
+.clients-item{
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
+fill: 
+#AFB1B8;
+}
+
+.clients-item:hover,.clients-item:focus{
+  fill: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+}
 
 
 
@@ -543,7 +575,7 @@ img {
   padding-top: 72px;
 }
 
-.footer-social-items{
+.footer-social-items {
   padding: 12px;
   fill: #FFFFFF;
   background-color: #43444d;
@@ -551,7 +583,7 @@ img {
 }
 
 .footer-social-items:hover,
-.footer-social-items:focus{
+.footer-social-items:focus {
   background-color: var(--accent);
 }
 
